@@ -14,7 +14,7 @@ const MyNetwork = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const BASE_URL = "http://localhost:4000";
+  const BASE_URL = "https://jobverse-api.onrender.com";
 
   // ✅ STABLE FUNCTION (FIXED)
   const fetchFriendList = useCallback(async () => {
