@@ -57,7 +57,7 @@ const [showConfirmPassword, setShowConfirmPassword] = useState(false);
       setLoading(true);
 
       const res = await axios.post(
-        "http://localhost:4000/api/auth/register",
+        "https://jobverse-api.onrender.com"/api/auth/register",
         {
           email,
           password,
