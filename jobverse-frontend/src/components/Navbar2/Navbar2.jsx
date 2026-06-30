@@ -62,7 +62,7 @@ const Navbar2 = () => {
         setLoading(true);
 
         const res = await fetch(
-          `${import.meta.env.VITE_API_URL || "http://localhost:4000"}/api/user/search?q=${searchTerm}`,
+          `${import.meta.env.VITE_API_URL || "https://jobverse-api.onrender.com"}/api/user/search?q=${searchTerm}`,
         );
         const data = await res.json();
 
