@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "https://jobverse-api.onrender.com/api",,
+  baseURL: "https://jobverse-api.onrender.com/api",
   withCredentials: true,
 });
 
