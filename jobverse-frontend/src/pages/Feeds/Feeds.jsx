@@ -29,10 +29,10 @@ const Feeds = () => {
       setError("");
 
       const [userData, postData] = await Promise.all([
-        axios.get(`${import.meta.env.VITE_API_URL}/api/auth/self`, {
+        axios.get(`https://job-verse-flax.vercel.app/api/auth/self`, {
           withCredentials: true,
         }),
-        axios.get(`${import.meta.env.VITE_API_URL}/api/post/getAllPost`, {
+        axios.get(`https://job-verse-flax.vercel.app/api/post/getAllPost`, {
           withCredentials: true,
         }),
       ]);
