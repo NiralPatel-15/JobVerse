@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:4000/api", // change if needed
+  baseURL: "https://jobverse-api.onrender.com/api", // change if needed
   withCredentials: true,
 });
 
