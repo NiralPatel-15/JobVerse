@@ -7,7 +7,7 @@ import DescriptionIcon from "@mui/icons-material/Description";
 import MessageIcon from "@mui/icons-material/Message";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import { toast } from "react-toastify";
-import NotificationDropdown from "../notifications/NotificationDropdown";
+import NotificationDropdown from "../Notifications/NotificationDropdown";
 import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import SearchIcon from "@mui/icons-material/Search";
 import MenuIcon from "@mui/icons-material/Menu";
