@@ -1,0 +1,53 @@
+{
+  "name": "jobverse-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.11",
+    "@mui/material": "^7.3.11",
+    "@react-oauth/google": "^0.13.4",
+    "axios": "^1.13.6",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.2.1",
+    "lucide-react": "^1.22.0",
+    "mammoth": "^1.12.0",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.11",
+    "pdf-parse": "^1.1.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-icons": "^5.6.0",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^7.13.1",
+    "react-toastify": "^11.0.5",
+    "recharts": "^3.8.1",
+    "remark-gfm": "^4.0.1",
+    "socket.io-client": "^4.8.3",
+    "streamifier": "^0.1.1",
+    "sweetalert2": "^11.26.24",
+    "tesseract.js": "^7.0.0",
+    "timeago.js": "^4.0.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "autoprefixer": "^10.4.27",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19",
+    "vite": "^7.3.1"
+  }
+}
