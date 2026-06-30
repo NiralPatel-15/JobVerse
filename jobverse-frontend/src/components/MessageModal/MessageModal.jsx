@@ -19,7 +19,7 @@ const MessageModal = ({ userData, closeModal }) => {
     try {
       // ✅ SAVE IN DATABASE
       const res = await axios.post(
-        "http://localhost:4000/api/conversation/add-conversation",
+        "https://jobverse-api.onrender.com/api/conversation/add-conversation",
         {
           receiverId: userData._id,
           message: message,
