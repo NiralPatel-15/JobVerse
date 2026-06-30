@@ -82,7 +82,7 @@ registerShortlistSocket(io);
 
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "https://job-verse-flax.vercel.app",
+    origin: process.env.FRONTEND_URL || "http://localhost:5173","https://job-verse-flax.vercel.app",
 
     credentials: true,
 
