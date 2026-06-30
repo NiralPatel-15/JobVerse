@@ -80,14 +80,22 @@ registerShortlistSocket(io);
 // CORS
 // ===============================
 
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://job-verse-flax.vercel.app",
+];
+
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "https://job-verse-flax.vercel.app",
-
+    origin(origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
     credentials: true,
-
-    methods: ["GET", "POST", "PUT", "DELETE"],
-  }),
+  })
 );
 
 // ===============================
