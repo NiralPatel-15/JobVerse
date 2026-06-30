@@ -1,15 +1,15 @@
 import { useEffect, useState, useCallback } from "react";
 import { useParams } from "react-router-dom";
 import axios from "../../api/axiosConfig";
-import WorkspaceHeader from "../../components/recruiter/workspace/WorkspaceHeader";
-import CandidateProfileCard from "../../components/recruiter/workspace/CandidateProfileCard";
-import ResumePreviewPanel from "../../components/recruiter/workspace/ResumePreviewPanel";
-import TimelinePanel from "../../components/recruiter/workspace/TimelinePanel";
-import RecruiterActions from "../../components/recruiter/workspace/RecruiterActions";
-import ActivityFeed from "../../components/recruiter/workspace/ActivityFeed";
-import InterviewFeedbackModal from "../../components/recruiter/interviews/InterviewFeedbackModal";
-import InterviewSchedulePanel from "../../components/recruiter/workspace/InterviewSchedulePanel";
-import SendOfferModal from "../../components/recruiter/offers/SendOfferModal";
+import WorkspaceHeader from "../../components/Recruiter/workspace/WorkspaceHeader";
+import CandidateProfileCard from "../../components/Recruiter/workspace/CandidateProfileCard";
+import ResumePreviewPanel from "../../components/Recruiter/workspace/ResumePreviewPanel";
+import TimelinePanel from "../../components/Recruiter/workspace/TimelinePanel";
+import RecruiterActions from "../../components/Recruiter/workspace/RecruiterActions";
+import ActivityFeed from "../../components/Recruiter/workspace/ActivityFeed";
+import InterviewFeedbackModal from "../../components/Recruiter/interviews/InterviewFeedbackModal";
+import InterviewSchedulePanel from "../../components/Recruiter/workspace/InterviewSchedulePanel";
+import SendOfferModal from "../../components/Recruiter/offers/SendOfferModal";
 
 const ApplicationWorkspace = () => {
   const { id } = useParams();
