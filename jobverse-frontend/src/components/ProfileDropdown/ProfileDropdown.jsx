@@ -45,7 +45,7 @@ const ProfileDropdown = ({ user, onClose }) => {
   const handleLogout = async () => {
     try {
       await fetch(
-        `${import.meta.env.VITE_API_URL || "http://localhost:4000"}/api/user/logout`,
+        `${import.meta.env.VITE_API_URL || "https://jobverse-api.onrender.com"}/api/user/logout`,
         {
           method: "POST",
           credentials: "include",
