@@ -42,7 +42,7 @@ import ApplicationWorkspace from "./pages/Recruiter/ApplicationWorkspace";
 import AnalyticsDashboard from "./pages/Recruiter/AnalyticsDashboard";
 import CommunicationWorkspace from "./pages/Recruiter/CommunicationWorkspace";
 import MyOffers from "./pages/Offers/MyOffers";
-import MyInterviews from "./pages/interviews/MyInterviews";
+import MyInterviews from "./pages/Interviews/MyInterviews";
 import AIAssistantButton from "./components/AI/AIAssistantButton";
 import AIAssistantModal from "./components/AI/AIAssistantModal";
 
